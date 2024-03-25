@@ -2,8 +2,11 @@
 Методы с сайта Moex.com (Московская биржа - крупнейший российский биржевой холдинг)
 
 ### Метод
+* /iss/index | Глобальные справочники ISS ([перейти](https://iss.moex.com/iss/reference/28))
 * /iss/engines | Список доступных торговых систем ([перейти](https://iss.moex.com/iss/reference/40))
 * /iss/securitygroups | Группы ценных бумаг ([перейти](https://iss.moex.com/iss/reference/127))
+
+
 
 ### Необходимые пакеты Python
 * ```bs4``` (получение DOM-дерева страницы, [подробнее..](https://pypi.org/project/beautifulsoup4/));
