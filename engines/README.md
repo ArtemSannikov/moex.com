@@ -1,6 +1,6 @@
 # Список доступных торговых систем
 
-Метод ```engines``` возвращает список торговых систем, которые доступны на сайте [MOEX.com](https://iss.moex.com/iss/engines.json)
+Метод ```engines``` возвращает список торговых систем, которые доступны на сайте [MOEX.com](https://iss.moex.com/iss/reference/40)
 
 **Примечание**:
 > Запросы для create, insert и view формированы для СУБД PostgreSQL.
