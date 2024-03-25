@@ -1,7 +1,7 @@
 CREATE OR REPLACE VIEW v_securitygroups_moex AS
 WITH read_json AS (
-	SELECT t.rep_dt,
-           t.js ->> 0 AS "id",
+	SELECT t."rep_dt",
+              t.js ->> 0 AS "id",
 	       t.js ->> 1 AS "name",
 	       t.js ->> 2 AS "title",
 	       t.js ->> 3 AS "is_hidden"
