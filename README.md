@@ -2,7 +2,7 @@
 Методы с сайта Moex.com (Московская биржа - крупнейший российский биржевой холдинг)
 
 ### Метод
-* engines | Глобальные справочники ISS ([перейти](https://iss.moex.com/iss/engines.json))
+* engines | Список доступных торговых систем ([перейти](https://iss.moex.com/iss/engines.json))
 
 ### Необходимые пакеты Python
 * ```bs4``` (получение DOM-дерева страницы, [подробнее..](https://pypi.org/project/beautifulsoup4/));
