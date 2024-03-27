@@ -3,10 +3,9 @@
 
 ### Метод
 * /iss/index | Глобальные справочники ISS ([перейти](https://iss.moex.com/iss/reference/28))
-* /iss/engines | Список доступных торговых систем ([перейти](https://iss.moex.com/iss/reference/40))
+* /iss/engines | Список торговых систем ([перейти](https://iss.moex.com/iss/reference/40))
 * /iss/securitygroups | Группы ценных бумаг ([перейти](https://iss.moex.com/iss/reference/127))
-
-
+* /iss/engines/[engine]/markets | Список рынков торговой системы ([перейти](https://iss.moex.com/iss/reference/42))
 
 ### Необходимые пакеты Python
 * ```bs4``` (получение DOM-дерева страницы, [подробнее..](https://pypi.org/project/beautifulsoup4/));
