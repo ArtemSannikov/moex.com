@@ -6,6 +6,7 @@
 * ```/iss/engines``` | Список торговых систем ([перейти](https://iss.moex.com/iss/reference/40))
 * ```/iss/securitygroups``` | Группы ценных бумаг ([перейти](https://iss.moex.com/iss/reference/127))
 * ```/iss/engines/[engine]/markets``` | Список рынков торговой системы ([перейти](https://iss.moex.com/iss/reference/42))
+* ```/iss/history/engines/stock/zcyc``` | История изменения параметров КБД (Кривая Бескупоной Доходности) ([перейти](https://iss.moex.com/iss/reference/783))
 
 ### Необходимые пакеты Python
 * ```bs4``` (получение DOM-дерева страницы, [подробнее..](https://pypi.org/project/beautifulsoup4/));
